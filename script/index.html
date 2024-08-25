@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Decodificador</title>
+    <script src="/script/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="logo" src="/styles/Vector.png" alt="Logo Icone">
+        </div>
+    </header>
+    <main class=" conteudo">
+        <section>
+            <div class="areadetexto" > 
+                 <textarea class="textoInput" style="color:#0A3871;" cols="30" rows="10" placeholder="digite seu texto aqui!" ></textarea>
+            </div>
+            <div class="botoes">
+                <p> <strong style="color: crimson;">apenas letras minusculas e sem caracteres especias</strong></p>
+                <button onclick="botaoCrip()" class="botaoCrip">Criptografar</button>
+                <button onclick="botaoDescrip()" class="botaoDescrip">Descriptografar</button>
+             </div>
+        </section>
+        <div class="esquerda">
+            <textarea  class="txtmensagem" placeholder="Texto criptografado aqui..."></textarea>   
+                <div class="dentro"> 
+                    <button class="botao__copiar" onclick="copiaTexto()" > Copiar </button>
+                </div>   
+         </div>
+    </main>
+    <footer><strong class="direitos">criado por samuel meireles</strong></footer>      
+</body>
+</html>
