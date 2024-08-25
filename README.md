@@ -1,1 +1,1 @@
-nesse projeto criei um decodificador utilizando javascript, html 5 e css
+nesse projeto criei um decodificador utilizando javascript, html 5 e css. explorei muita coisa que eu nao sabia, aprendi muito coisa durante a construçao desse projeto, em todas as linguaguens usadas.
